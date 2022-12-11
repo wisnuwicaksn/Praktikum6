@@ -9,4 +9,8 @@ public class Lingkaran extends BangunDatar{
     public float getLuas(){
         return (float) (this.pi * r * r);
     }
+
+    public void Gambar(){
+        System.out.println("Gambar Lingkaran");
+    }
 }
