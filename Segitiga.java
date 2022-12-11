@@ -6,6 +6,12 @@ public class Segitiga extends BangunDatar {
         this.tinggi = tinggi;
     }
 
+    
+
+    public void Gambar(){
+        System.out.println("Gambar Segitiga");
+    }
+
     public float getLuas(){
         return (float) (0.5 * this.alas * this.tinggi);
     }
