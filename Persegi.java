@@ -8,4 +8,8 @@ public class Persegi extends BangunDatar {
     public float getLuas(){
         return this.sisi * sisi;
     }
+
+    public void Gambar(){
+        System.out.println("Gambar Persegi");
+    }
 }
