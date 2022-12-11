@@ -1,5 +1,5 @@
 public abstract class BangunDatar {
-    String warna, gambar;
+    String warna;
 
     String getWarna(){
         return warna;
@@ -9,9 +9,6 @@ public abstract class BangunDatar {
         this.warna = warna;
     }
 
-    String setGambar(){
-        return gambar;
-    }
-
-    abstract float getLuas();
+    public abstract void Gambar();
+    public abstract float getLuas();
 }
